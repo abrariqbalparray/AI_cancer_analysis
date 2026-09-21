@@ -1,0 +1,65 @@
+{
+    "no_tumor": {
+        "title": "No Tumor Detected",
+        "description": "The brain MRI was classified by the AI model as showing no tumor pattern in the categories used by this project.",
+        "risk_factors": [
+            "No tumor-specific risk factors are applicable when no tumor is detected.",
+            "MRI interpretation should still be confirmed by a qualified healthcare professional when clinically indicated."
+        ],
+        "treatment": [
+            "No tumor-specific treatment is indicated by this AI prediction alone.",
+            "If symptoms or clinical concerns are present, appropriate medical evaluation should be sought."
+        ]
+    },
+
+    "glioma": {
+        "title": "Glioma",
+        "description": "Gliomas are tumors that arise from glial cells or related cells in the central nervous system. They can vary widely in their biological behavior and grade.",
+        "risk_factors": [
+            "Most gliomas do not have a clearly identifiable cause.",
+            "Certain inherited genetic conditions can increase the risk of developing gliomas.",
+            "Previous exposure to ionizing radiation is an established risk factor in some cases.",
+            "Age and certain genetic or molecular changes can influence the likelihood and characteristics of gliomas."
+        ],
+        "treatment": [
+            "Treatment depends on the tumor type, grade, molecular characteristics, location, size, and the person's overall clinical situation.",
+            "Possible treatment approaches include surgery, radiation therapy, chemotherapy, targeted therapy, or combinations of these approaches.",
+            "Some patients may also undergo monitoring or additional specialized treatment depending on the tumor characteristics."
+        ]
+    },
+
+    "meningioma": {
+        "title": "Meningioma",
+        "description": "Meningiomas are tumors that arise from the meninges, the protective membranes surrounding the brain and spinal cord. Many meningiomas are slow-growing.",
+        "risk_factors": [
+            "Increasing age is associated with a higher likelihood of meningioma.",
+            "Certain genetic conditions can increase risk.",
+            "Previous exposure to ionizing radiation, particularly to the head, is an established risk factor.",
+            "Hormonal and genetic factors may also have a role in some meningiomas."
+        ],
+        "treatment": [
+            "Some small or slow-growing meningiomas may be monitored with regular imaging.",
+            "Surgery may be considered when the tumor causes symptoms, grows, or can be safely removed.",
+            "Radiation therapy or other specialized treatments may be considered in selected cases.",
+            "The appropriate approach depends on tumor location, size, growth, symptoms, and other clinical factors."
+        ]
+    },
+
+    "pituitary": {
+        "title": "Pituitary Tumor",
+        "description": "Pituitary tumors develop in or around the pituitary gland. Many are benign and some can affect hormone production or nearby structures.",
+        "risk_factors": [
+            "The exact cause of most pituitary tumors is not known.",
+            "Some inherited genetic syndromes can increase the risk of pituitary tumors.",
+            "Hormonal and genetic factors may influence certain pituitary tumors."
+        ],
+        "treatment": [
+            "Treatment depends on the tumor type, size, hormone activity, symptoms, and effect on nearby structures.",
+            "Some pituitary tumors can be monitored without immediate treatment.",
+            "Medication may be used for certain hormone-producing pituitary tumors.",
+            "Surgery or radiation therapy may be considered in selected cases."
+        ]
+    },
+
+    "disclaimer": "This information is provided for educational purposes only. The AI model's prediction is not a medical diagnosis and should not be used by itself to determine treatment or medical decisions."
+}

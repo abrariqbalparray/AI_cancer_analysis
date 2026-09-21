@@ -1,0 +1,38 @@
+{
+    "benign": {
+        "title": "Benign Pattern",
+        "description": "The AI model classified the uploaded histopathology image as benign. In general, a benign finding is not malignant, although different benign breast conditions can have different clinical significance.",
+        "risk_factors": [
+            "Benign breast conditions can have many different causes depending on the specific condition.",
+            "Hormonal changes can contribute to some benign breast conditions.",
+            "Age and reproductive or hormonal history can influence some breast conditions.",
+            "The specific cause cannot be determined from this AI image classification alone."
+        ],
+        "treatment": [
+            "Many benign breast conditions do not require treatment beyond observation.",
+            "Some conditions may require medication, monitoring, biopsy, or surgical management depending on the specific diagnosis.",
+            "The appropriate management depends on clinical examination, imaging, pathology, and other medical information."
+        ]
+    },
+
+    "malignant": {
+        "title": "Malignant Pattern",
+        "description": "The AI model classified the uploaded histopathology image as malignant. Malignant breast tumors are cancerous growths that can invade surrounding tissue and, in some cases, spread to other parts of the body.",
+        "risk_factors": [
+            "Increasing age is an important risk factor for breast cancer.",
+            "Certain inherited genetic variants, including changes in genes such as BRCA1 and BRCA2, can increase risk.",
+            "A personal or family history of breast cancer can increase risk.",
+            "Some hormonal and reproductive factors are associated with breast cancer risk.",
+            "Alcohol consumption, physical inactivity, and some other lifestyle factors can influence risk.",
+            "Risk factors vary between individuals, and having a risk factor does not mean that a person will develop breast cancer."
+        ],
+        "treatment": [
+            "Treatment depends on the specific type and stage of breast cancer and its biological characteristics.",
+            "Possible treatments include surgery, radiation therapy, chemotherapy, hormone therapy, targeted therapy, immunotherapy, or combinations of these treatments.",
+            "Treatment decisions are made using pathology results, tumor characteristics, stage, and other clinical information.",
+            "A healthcare professional should determine the appropriate treatment for an individual patient."
+        ]
+    },
+
+    "disclaimer": "This information is provided for educational purposes only. The AI model's prediction is not a medical diagnosis. Causes, risk factors, and treatment cannot be determined for an individual from the uploaded image alone."
+}

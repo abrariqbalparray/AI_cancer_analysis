@@ -1,0 +1,25 @@
+venv/
+__pycache__/
+*.pyc
+.DS_Store
+.ipynb_checkpoints/
+.vscode/
+
+Dataset/
+archive/
+
+Brain Tumor MRI Dataset (Glioma, Meningioma, Pitui/
+brain_tumor/results/
+breast_cancer/results/
+
+breast_cancer/*.csv
+
+brain_tumor/model/binary_brain_model_stage1.keras
+brain_tumor/model/binary_brain_model_v1.keras
+brain_tumor/model/brain_model.keras
+brain_tumor/model/brain_model_v2.keras
+brain_tumor/model/brain_model_v3_stage1.keras
+brain_tumor/model/brain_model_v4.keras
+brain_tumor/model/brain_model_v4_stage1.keras
+
+breast_cancer/model/breast_cancer_model_b0.keras
